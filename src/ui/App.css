@@ -1,0 +1,11 @@
+.app {
+  box-sizing: border-box;
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  .header {
+    padding: 0.25rem 0.75rem;
+    border-bottom: var(--border);
+  }
+}

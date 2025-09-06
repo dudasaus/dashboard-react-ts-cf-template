@@ -1,0 +1,14 @@
+:root {
+  font-family: monospace;
+
+  --bg: #fff;
+  --text: black;
+  --border-color: #aaa;
+  --selection-outline-color: #6767ef;
+
+  --border: 1px solid var(--border-color);
+}
+
+body {
+  margin: 0;
+}

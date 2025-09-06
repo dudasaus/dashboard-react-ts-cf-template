@@ -1,0 +1,14 @@
+.resizable-panel {
+  background: var(--bg)
+}
+
+.resizable-resize-handle {
+  min-height: 1px;
+  min-width: 1px;
+
+  background-color: var(--border-color);
+
+  &:not([data-resize-handle-state="inactive"]) {
+    background-color: var(--selection-outline-color);
+  }
+}
